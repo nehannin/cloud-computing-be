@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def sentiment_analysis_endpoint():
-    return "Sentiment Analysis"
+    return "<p>Sentiment Analysis (testing webhook)</p>"
 
 
 if __name__ == "__main__":
